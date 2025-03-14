@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM-Intel-MIC</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 1rem;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00a1d6;
+        }
+
+        .title {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin: 1rem 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .bilibili-btn {
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            background: linear-gradient(135deg, #00a1d6, #0092c7);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 1rem;
+        }
+
+        .bilibili-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,161,214,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="mic.jpg" class="header-img" alt="MIC Logo">
+        <h1 class="title">SYSTEM-Intel-MIC的无聊之作</h1>
+        <button class="bilibili-btn" 
+                onclick="window.open('https://space.bilibili.com/1978487514','_blank')">
+            访问我的B站空间
+        </button>
+ <button class="bilibili-btn" 
+                onclick="window.open('qqadd.jpg','_blank')">
+            加我QQ
+        </button>
+    </div>
+</body>
+</html>

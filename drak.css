@@ -1,0 +1,51 @@
+/* 公共 */
+/*@font-face {font-display: swap;font-family: HarmonyOS-Sans;src: url(/assets/font/HarmonyOS-Sans.woff2) format("truetype")}*/
+@font-face {font-family:'ceym';src:url('ceym.woff2')format("woff2");font-display: swap;}
+body {font-family: ceym,HarmonyOS-Sans,sans-serif,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";}
+body{background-color: #212529;color: #f8f8f8;}
+*{margin: 0; padding: 0;}li{list-style-type: none;}
+a{color: #c;}
+a,a:hover,a:visited,a:link{text-decoration: none;color:#f8f8f8}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin: 5px 0; }
+/* bs */
+.btn-primary{background-color:#0d6efd;border-color:#0d6efd;}
+.btn-warning{color: #000;background-color:#ffc107;border-color:#ffc107;}
+.panel-heading{color: #adb5bd !important;}
+.panel-default{background-color: transparent;border-color: #2F4056;}
+.panel-primary{background-color: transparent;border-color: #2F4056;}
+.panel-primary .panel-heading{background-color: transparent;border-color: #2F4056;}
+.card_1 .panel-body,.card_2 .panel-body {padding: 15px 15px 0;}
+.modal-body {padding: 1px;}
+.modal-body img{border-radius:5px;}
+.modal-footer{padding: 1px;}
+.modal-footer span{color:#212529;}
+/* 头部 */
+
+header{height: 60rem;width: 100%;}
+header .head{position: relative;}
+header .head .title{border-radius:5px;background-color: rgba(30,30,30,0.75);}
+header .head .title{text-align: center; position: absolute;top: 10px;left: 10px;padding: 10px;z-index:1}
+header .head .title h1{ color: #FFFFFF; font-size:2rem;margin: 5px 0;}
+header .head .btn-group{text-align: center; position: absolute;top: 0px;right: 0px;padding: 20px 20px 20px;z-index:1}
+/*推荐*/
+.first{margin-top: 5rem;margin-bottom: 3rem;}
+.first ul li{text-align: center; border-radius:8px; margin-bottom: 1rem;}
+.first li a{color: #FFFFFF;display: block;padding: 30px 0; border: solid 1px #2F4056;border-radius:8px;}
+.first li a:hover{background-color: #424649;box-shadow: 0 1px 15px 1px rgba(81,77,92,0.8);border-color: #2F4056!important;}
+/* 样式1 */
+.card_1 ul li{text-align: center; border-radius:8px; margin-bottom: 1rem;}
+.card_1 ul li a{display: block;padding: 30px 0; border-radius:8px;}
+.card_1 ul li a:hover{background-color: #424649;box-shadow: 0 1px 15px 1px rgba(81,77,92,0.8);color: #fff !important;border-color: #2F4056!important;}
+/* 样式2 */
+.card_2 ul li{text-align: center; border-radius:8px; margin-bottom: 1rem;}
+.card_2 ul li a{display: block;padding: 8px 0; border-radius:4px;border: solid 1px #2F4056;}
+.card_2 ul li a:hover{background-color: #424649;color: #fff !important;}
+/* 尾部 */
+footer{text-align: center; }/*padding: 20px;font-size: 1rem;*/
+footer .link{border-top: #2F4056 1px solid; margin-top: 50px; padding-top: 20px;}
+footer a:hover{color: #1E9FFF;}
+/* 自适应 */
+@media(max-width:992px){
+    header{height: 40rem;width:100%;}
+    header .head .btn-group{top: 33rem;}
+}

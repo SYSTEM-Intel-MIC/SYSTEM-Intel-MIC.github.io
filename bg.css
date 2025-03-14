@@ -1,0 +1,491 @@
+.bg_1{background-color:#bf242a}
+.bg_2{background-color:#f5b199;color: #303133!important;}
+.bg_3{background-color:#efab93;color: #303133!important;}
+.bg_4{background-color:#f2a0a1;color: #303133!important;}
+.bg_5{background-color:#f0908d;color: #303133!important;}
+.bg_6{background-color:#ee827c;color: #303133!important;}
+.bg_7{background-color:#f09199;color: #303133!important;}
+.bg_8{background-color:#e597b2;color: #303133!important;}
+.bg_9{background-color:#e198b4;color: #303133!important;}
+.bg_10{background-color:#e4ab9b;color: #303133!important;}
+.bg_11{background-color:#e09e87;color: #303133!important;}
+.bg_12{background-color:#d69090;color: #303133!important;}
+.bg_13{background-color:#d4acad;color: #303133!important;}
+.bg_14{background-color:#c97586}
+.bg_15{background-color:#c099a0}
+.bg_16{background-color:#b88884}
+.bg_17{background-color:#b48a76}
+.bg_18{background-color:#a86965}
+.bg_19{background-color:#a25768}
+.bg_20{background-color:#ec6d71}
+.bg_21{background-color:#eb6ea5}
+.bg_22{background-color:#e95295}
+.bg_23{background-color:#e7609e}
+.bg_24{background-color:#d0576b}
+.bg_25{background-color:#c85179}
+.bg_26{background-color:#e9546b}
+.bg_27{background-color:#e95464}
+.bg_28{background-color:#c85554}
+.bg_29{background-color:#c53d43}
+.bg_30{background-color:#e83929}
+.bg_31{background-color:#e60033}
+.bg_32{background-color:#e2041b}
+.bg_33{background-color:#d7003a}
+.bg_34{background-color:#c9171e}
+.bg_35{background-color:#d3381c}
+.bg_36{background-color:#ce5242}
+.bg_37{background-color:#d9333f}
+.bg_38{background-color:#b94047}
+.bg_39{background-color:#ba2636}
+.bg_40{background-color:#b7282e}
+.bg_41{background-color:#a73836}
+.bg_42{background-color:#9e3d3f}
+.bg_43{background-color:#a22041}
+.bg_44{background-color:#a22041}
+.bg_45{background-color:#ede1a9;color: #303133!important;}
+.bg_46{background-color:#f2f2b0;color: #303133!important;}
+.bg_47{background-color:#e4dc8a;color: #303133!important;}
+.bg_48{background-color:#f8e58c;color: #303133!important;}
+.bg_49{background-color:#db9;color: #303133!important;}
+.bg_50{background-color:#d7a98c;color: #303133!important;}
+.bg_51{background-color:#f2c9ac;color: #303133!important;}
+.bg_52{background-color:#fff1cf;color: #303133!important;}
+.bg_53{background-color:#fddea5;color: #303133!important;}
+.bg_54{background-color:#fce2c4;color: #303133!important;}
+.bg_55{background-color:#fde8d0;color: #303133!important;}
+.bg_56{background-color:#f9c89b;color: #303133!important;}
+.bg_57{background-color:#f7bd8f;color: #303133!important;}
+.bg_58{background-color:#f6b894;color: #303133!important;}
+.bg_59{background-color:#f4dda5;color: #303133!important;}
+.bg_60{background-color:#f1bf99;color: #303133!important;}
+.bg_61{background-color:#f1bf99;color: #303133!important;}
+.bg_62{background-color:#efcd9a;color: #303133!important;}
+.bg_63{background-color:#efcd9a;color: #303133!important;}
+.bg_64{background-color:#f0cfa0;color: #303133!important;}
+.bg_65{background-color:#edd3a1;color: #303133!important;}
+.bg_66{background-color:#e0c38c;color: #303133!important;}
+.bg_67{background-color:#f3bf88;color: #303133!important;}
+.bg_68{background-color:#f7b977}
+.bg_69{background-color:#f19072}
+.bg_70{background-color:#f19072}
+.bg_71{background-color:#ee836f}
+.bg_72{background-color:#eb9b6f}
+.bg_73{background-color:#e0815e}
+.bg_74{background-color:#df7163}
+.bg_75{background-color:#d57c6b}
+.bg_76{background-color:#d0826c}
+.bg_77{background-color:#ca8269}
+.bg_78{background-color:#bb5548}
+.bg_79{background-color:#ab6953}
+.bg_80{background-color:#96514d}
+.bg_81{background-color:#8d6449}
+.bg_82{background-color:#deb068}
+.bg_83{background-color:#bf794e}
+.bg_84{background-color:#bc763c}
+.bg_85{background-color:#b98c46}
+.bg_86{background-color:#b79b5b}
+.bg_87{background-color:#b77b57}
+.bg_88{background-color:#b68d4c}
+.bg_89{background-color:#ad7d4c}
+.bg_90{background-color:#ad7d4c}
+.bg_91{background-color:#ae7c4f}
+.bg_92{background-color:#ad7e4e}
+.bg_93{background-color:#ae7c58}
+.bg_94{background-color:#a86f4c}
+.bg_95{background-color:#946243}
+.bg_96{background-color:#917347}
+.bg_97{background-color:#956f29}
+.bg_98{background-color:#8c7042}
+.bg_99{background-color:#7b6c3e}
+.bg_100{background-color:#d8a373;color: #303133!important;}
+.bg_101{background-color:#cd8c5c}
+.bg_102{background-color:#cd5e3c}
+.bg_103{background-color:#cb8347}
+.bg_104{background-color:#c37854}
+.bg_105{background-color:#c38743}
+.bg_106{background-color:#c39143}
+.bg_107{background-color:#bf783a}
+.bg_108{background-color:#bb5535}
+.bg_109{background-color:#bb5520}
+.bg_110{background-color:#b55233}
+.bg_111{background-color:#aa4f37}
+.bg_112{background-color:#9f563a}
+.bg_113{background-color:#9f563a}
+.bg_114{background-color:#9a493f}
+.bg_115{background-color:#98623c}
+.bg_116{background-color:#965042}
+.bg_117{background-color:#965036}
+.bg_118{background-color:#95483f}
+.bg_119{background-color:#954e2a}
+.bg_120{background-color:#8f2e14}
+.bg_121{background-color:#8a3319}
+.bg_122{background-color:#8a3b00}
+.bg_123{background-color:#852e19}
+.bg_124{background-color:#7b4741}
+.bg_125{background-color:#773c30}
+.bg_126{background-color:#783c1d}
+.bg_127{background-color:#762f07}
+.bg_128{background-color:#752100}
+.bg_129{background-color:#6c3524}
+.bg_130{background-color:#683f36}
+.bg_131{background-color:#664032}
+.bg_132{background-color:#6d3c32}
+.bg_133{background-color:#583822}
+.bg_134{background-color:#6c2c2f}
+.bg_135{background-color:#640125}
+.bg_136{background-color:#f8b862;color: #303133!important;}
+.bg_137{background-color:#f6ad49;color: #303133!important;}
+.bg_138{background-color:#f39800;color: #303133!important;}
+.bg_139{background-color:#f08300;color: #303133!important;}
+.bg_140{background-color:#ec6d51}
+.bg_141{background-color:#ee7948}
+.bg_142{background-color:#ed6d3d}
+.bg_143{background-color:#ec6800}
+.bg_144{background-color:#ec6800}
+.bg_145{background-color:#ee7800}
+.bg_146{background-color:#eb6238}
+.bg_147{background-color:#ea5506}
+.bg_148{background-color:#ea5506}
+.bg_149{background-color:#eb6101}
+.bg_150{background-color:#e49e61}
+.bg_151{background-color:#e45e32}
+.bg_152{background-color:#e17b34}
+.bg_153{background-color:#dd7a56}
+.bg_154{background-color:#db8449}
+.bg_155{background-color:#d66a35}
+.bg_156{background-color:#ffd900;color: #303133!important;}
+.bg_157{background-color:#ffd900;color: #303133!important;}
+.bg_158{background-color:#ffea00;color: #303133!important;}
+.bg_159{background-color:#ffec47;color: #303133!important;}
+.bg_160{background-color:#fef263;color: #303133!important;}
+.bg_161{background-color:#fcd575;color: #303133!important;}
+.bg_162{background-color:#fbd26b;color: #303133!important;}
+.bg_163{background-color:#f5e56b;color: #303133!important;}
+.bg_164{background-color:#eec362;color: #303133!important;}
+.bg_165{background-color:#ebd842;color: #303133!important;}
+.bg_166{background-color:#ffdb4f;color: #303133!important;}
+.bg_167{background-color:#fbca4d;color: #303133!important;}
+.bg_168{background-color:#fcc800;color: #303133!important;}
+.bg_169{background-color:#f8b500;color: #303133!important;}
+.bg_170{background-color:#fabf14;color: #303133!important;}
+.bg_171{background-color:#f7c114;color: #303133!important;}
+.bg_172{background-color:#e6b422;color: #303133!important;}
+.bg_173{background-color:#e6b422;color: #303133!important;}
+.bg_174{background-color:#d9a62e;color: #303133!important;}
+.bg_175{background-color:#d3a243;color: #303133!important;}
+.bg_176{background-color:#c89932;color: #303133!important;}
+.bg_177{background-color:#d0af4c;color: #303133!important;}
+.bg_178{background-color:#8b968d}
+.bg_179{background-color:#6e7955}
+.bg_180{background-color:#767c6b}
+.bg_181{background-color:#888e7e}
+.bg_182{background-color:#5a544b}
+.bg_183{background-color:#56564b}
+.bg_184{background-color:#56564b}
+.bg_185{background-color:#494a41}
+.bg_186{background-color:#6b6f59}
+.bg_187{background-color:#474b42}
+.bg_188{background-color:#333631}
+.bg_189{background-color:#5b6356}
+.bg_190{background-color:#726250}
+.bg_191{background-color:#9d896c}
+.bg_192{background-color:#94846a}
+.bg_193{background-color:#897858}
+.bg_194{background-color:#716246}
+.bg_195{background-color:#cbb994;color: #303133!important;}
+.bg_196{background-color:#d6c6af;color: #303133!important;}
+.bg_197{background-color:#bfa46f}
+.bg_198{background-color:#9e9478}
+.bg_199{background-color:#a59564}
+.bg_200{background-color:#715c1f}
+.bg_201{background-color:#c7b370}
+.bg_202{background-color:#dcd3b2;color: #303133!important;}
+.bg_203{background-color:#a19361}
+.bg_204{background-color:#8f8667}
+.bg_205{background-color:#887938}
+.bg_206{background-color:#6a5d21}
+.bg_207{background-color:#918754}
+.bg_208{background-color:#a69425}
+.bg_209{background-color:#ada250}
+.bg_210{background-color:#938b4b}
+.bg_211{background-color:#8c8861}
+.bg_212{background-color:#a1a46d}
+.bg_213{background-color:#726d40}
+.bg_214{background-color:#928c36}
+.bg_215{background-color:#dccb18;color: #303133!important;}
+.bg_216{background-color:#d7cf3a;color: #303133!important;}
+.bg_217{background-color:#c5c56a;color: #303133!important;}
+.bg_218{background-color:#c3d825;color: #303133!important;}
+.bg_219{background-color:#b8d200;color: #303133!important;}
+.bg_220{background-color:#e0ebaf;color: #303133!important;}
+.bg_221{background-color:#d8e698;color: #303133!important;}
+.bg_222{background-color:#c7dc68;color: #303133!important;}
+.bg_223{background-color:#99ab4e}
+.bg_224{background-color:#7b8d42}
+.bg_225{background-color:#69821b}
+.bg_226{background-color:#aacf53;color: #303133!important;}
+.bg_227{background-color:#b0ca71;color: #303133!important;}
+.bg_228{background-color:#b9d08b;color: #303133!important;}
+.bg_229{background-color:#839b5c;color: #303133!important;}
+.bg_230{background-color:#cee4ae;color: #303133!important;}
+.bg_231{background-color:#82ae46;color: #303133!important;}
+.bg_232{background-color:#a8c97f;color: #303133!important;}
+.bg_233{background-color:#9ba88d;color: #303133!important;}
+.bg_234{background-color:#c8d5bb;color: #303133!important;}
+.bg_235{background-color:#c1d8ac;color: #303133!important;}
+.bg_236{background-color:#a8bf93;color: #303133!important;}
+.bg_237{background-color:#769164}
+.bg_238{background-color:#d6e9ca;color: #303133!important;}
+.bg_239{background-color:#93ca76}
+.bg_240{background-color:#93b881}
+.bg_241{background-color:#badcad;color: #303133!important;}
+.bg_242{background-color:#97a791}
+.bg_243{background-color:#98d98e;color: #303133!important;}
+.bg_244{background-color:#88cb7f;color: #303133!important;}
+.bg_245{background-color:#69b076}
+.bg_246{background-color:#6b7b6e}
+.bg_247{background-color:#bed2c3;color: #303133!important;}
+.bg_248{background-color:#93b69c}
+.bg_249{background-color:#a6c8b2;color: #303133!important;}
+.bg_250{background-color:#47885e}
+.bg_251{background-color:#316745}
+.bg_252{background-color:#68be8d}
+.bg_253{background-color:#3eb370;color: #303133!important;}
+.bg_254{background-color:#007b43}
+.bg_255{background-color:#bed3ca;color: #303133!important;}
+.bg_256{background-color:#92b5a9}
+.bg_257{background-color:#7ebea5;color: #303133!important;}
+.bg_258{background-color:#7ebeab;color: #303133!important;}
+.bg_259{background-color:#028760}
+.bg_260{background-color:#3b7960}
+.bg_261{background-color:#2f5d50}
+.bg_262{background-color:#3a5b52}
+.bg_263{background-color:#475950}
+.bg_264{background-color:#00552e}
+.bg_265{background-color:#005243}
+.bg_266{background-color:#006e54}
+.bg_267{background-color:#00a381}
+.bg_268{background-color:#38b48b}
+.bg_269{background-color:#00a497}
+.bg_270{background-color:#80aba9;color: #303133!important;}
+.bg_271{background-color:#5c9291}
+.bg_272{background-color:#478384}
+.bg_273{background-color:#43676b}
+.bg_274{background-color:#80989b}
+.bg_275{background-color:#2c4f54}
+.bg_276{background-color:#1f3134}
+.bg_277{background-color:#47585c}
+.bg_278{background-color:#485859}
+.bg_279{background-color:#6c848d}
+.bg_280{background-color:#53727d}
+.bg_281{background-color:#5b7e91}
+.bg_282{background-color:#426579}
+.bg_283{background-color:#4c6473}
+.bg_284{background-color:#455765}
+.bg_285{background-color:#44617b}
+.bg_286{background-color:#393f4c}
+.bg_287{background-color:#393e4f}
+.bg_288{background-color:#203744}
+.bg_289{background-color:#4d4c61}
+.bg_290{background-color:#89c3eb;color: #303133!important;}
+.bg_291{background-color:#84a2d4}
+.bg_292{background-color:#83ccd2;color: #303133!important;}
+.bg_293{background-color:#84b9cb;color: #303133!important;}
+.bg_294{background-color:#698aab}
+.bg_295{background-color:#089}
+.bg_296{background-color:#00a3af}
+.bg_297{background-color:#2a83a2}
+.bg_298{background-color:#59b9c6;color: #303133!important;}
+.bg_299{background-color:#2ca9e1}
+.bg_300{background-color:#38a1db}
+.bg_301{background-color:#0095d9}
+.bg_302{background-color:#0094c8}
+.bg_303{background-color:#2792c3}
+.bg_304{background-color:#007bbb}
+.bg_305{background-color:#5383c3}
+.bg_306{background-color:#5a79ba}
+.bg_307{background-color:#4c6cb3}
+.bg_308{background-color:#3e62ad}
+.bg_309{background-color:#1e50a2}
+.bg_310{background-color:#507ea4}
+.bg_311{background-color:#19448e}
+.bg_312{background-color:#164a84}
+.bg_313{background-color:#165e83}
+.bg_314{background-color:#274a78}
+.bg_315{background-color:#2a4073}
+.bg_316{background-color:#223a70}
+.bg_317{background-color:#192f60}
+.bg_318{background-color:#1c305c}
+.bg_319{background-color:#0f2350}
+.bg_320{background-color:#17184b}
+.bg_321{background-color:#bbbcde;color: #303133!important;}
+.bg_322{background-color:#8491c3;color: #303133!important;}
+.bg_323{background-color:#8491c3}
+.bg_324{background-color:#4d5aaf}
+.bg_325{background-color:#4d5aaf}
+.bg_326{background-color:#4a488e}
+.bg_327{background-color:#4d4398}
+.bg_328{background-color:#5654a2}
+.bg_329{background-color:#706caa}
+.bg_330{background-color:#68699b}
+.bg_331{background-color:#867ba9}
+.bg_332{background-color:#a59aca;color: #303133!important;}
+.bg_333{background-color:#7058a3}
+.bg_334{background-color:#674598}
+.bg_335{background-color:#674196}
+.bg_336{background-color:#9079ad}
+.bg_337{background-color:#745399}
+.bg_338{background-color:#65318e}
+.bg_339{background-color:#522f60}
+.bg_340{background-color:#493759}
+.bg_341{background-color:#2e2930}
+.bg_342{background-color:#884898}
+.bg_343{background-color:#c0a2c7;color: #303133!important;}
+.bg_344{background-color:#460e44}
+.bg_345{background-color:#74325c}
+.bg_346{background-color:#55295b}
+.bg_347{background-color:#895b8a}
+.bg_348{background-color:#824880}
+.bg_349{background-color:#915c8b}
+.bg_350{background-color:#9d5b8b}
+.bg_351{background-color:#7a4171}
+.bg_352{background-color:#bc64a4}
+.bg_353{background-color:#b44c97}
+.bg_354{background-color:#aa4c8f}
+.bg_355{background-color:#cc7eb1;color: #303133!important;}
+.bg_356{background-color:#cca6bf;color: #303133!important;}
+.bg_357{background-color:#c4a3bf;color: #303133!important;}
+.bg_358{background-color:#e7e7eb;color: #303133!important;}
+.bg_359{background-color:#dcd6d9;color: #303133!important;}
+.bg_360{background-color:#d3cfd9;color: #303133!important;}
+.bg_361{background-color:#d3ccd6;color: #303133!important;}
+.bg_362{background-color:#c8c2c6;color: #303133!important;}
+.bg_363{background-color:#a6a5c4;color: #303133!important;}
+.bg_364{background-color:#a69abd;color: #303133!important;}
+.bg_365{background-color:#a89dac}
+.bg_366{background-color:#9790a4}
+.bg_367{background-color:#9e8b8e}
+.bg_368{background-color:#95859c}
+.bg_369{background-color:#95949a}
+.bg_370{background-color:#71686c}
+.bg_371{background-color:#705b67}
+.bg_372{background-color:#634950}
+.bg_373{background-color:#5f414b}
+.bg_374{background-color:#4f455c}
+.bg_375{background-color:#5a5359}
+.bg_376{background-color:#594255}
+.bg_377{background-color:#524748}
+.bg_378{background-color:#513743}
+.bg_379{background-color:#e6eae3;color: #303133!important;}
+.bg_380{background-color:#d4dcd6;color: #303133!important;}
+.bg_381{background-color:#d4dcda;color: #303133!important;}
+.bg_382{background-color:#d3cbc6;color: #303133!important;}
+.bg_383{background-color:#c8c2be;color: #303133!important;}
+.bg_384{background-color:#b3ada0;color: #303133!important;}
+.bg_385{background-color:#a99e93}
+.bg_386{background-color:#a58f86}
+.bg_387{background-color:#928178}
+.bg_388{background-color:#887f7a}
+.bg_389{background-color:#b4866b}
+.bg_390{background-color:#b28c6e}
+.bg_391{background-color:#a16d5d}
+.bg_392{background-color:#9f6f55}
+.bg_393{background-color:#8c6450}
+.bg_394{background-color:#856859}
+.bg_395{background-color:#765c47}
+.bg_396{background-color:#6f514c}
+.bg_397{background-color:#6f4b3e}
+.bg_398{background-color:#544a47}
+.bg_399{background-color:#543f32}
+.bg_400{background-color:#554738}
+.bg_401{background-color:#433d3c}
+.bg_402{background-color:#432f2f}
+.bg_403{background-color:#3f312b}
+.bg_404{background-color:#302833}
+.bg_405{background-color:#afafb0;color: #303133!important;}
+.bg_406{background-color:#adadad;color: #303133!important;}
+.bg_407{background-color:#a3a3a2;color: #303133!important;}
+.bg_408{background-color:#9ea1a3;color: #303133!important;}
+.bg_409{background-color:#9fa0a0;color: #303133!important;}
+.bg_410{background-color:#949495;color: #303133!important;}
+.bg_411{background-color:#888084;color: #303133!important;}
+.bg_412{background-color:#7d7d7d;color: #303133!important;}
+.bg_413{background-color:#7b7c7d;color: #303133!important;}
+.bg_414{background-color:#727171;color: #303133!important;}
+.bg_415{background-color:#595857}
+.bg_416{background-color:#595455}
+.bg_417{background-color:#524e4d}
+.bg_418{background-color:#474a4d}
+.bg_419{background-color:#383c3c}
+.bg_420{background-color:#281a14}
+.bg_421{background-color:#250d00}
+.bg_422{background-color:#241a08}
+
+
+/* 颜色 */
+.box-bg-1{background-color: #E6A23C;}
+.box-bg-2{background-color: #F56C6C;}
+.box-bg-3{background-color: #5FB878;}
+.box-bg-4{background-color: #1E9FFF;}
+.box-bg-5{background-color: #FFB800;color: #303133!important;}
+.box-bg-6{background-color: #FF5722;}
+.box-bg-7{background-color: #01AAED;}
+.box-bg-8{background-color: #409EFF;}
+.box-bg-9{background-color: #67C23A;}
+.box-bg-10{background-color: #393D49;}
+.box-bg-11{background-color: #2F4056;}
+.box-bg-12{background-color: #009688;}
+.box-bg-13{background-color: #909399;}
+.box-bg-14{background-color: #303133;}
+.box-bg-15{background-color: #606266;}
+.box-bg-16{background-color: #909399;}
+.box-bg-17{background-color: #C0C4CC;color: #303133!important;}
+.box-bg-18{background-color: #66FFFF;color: #303133!important;}
+.box-bg-19{background-color: #66FFCC;color: #303133!important;}
+.box-bg-20{background-color: #66FF99;color: #303133!important;}
+.box-bg-21{background-color: #66FF66;color: #303133!important;}
+.box-bg-22{background-color: #66CCFF;}
+.box-bg-23{background-color: #66CCCC;color: #303133!important;}
+.box-bg-24{background-color: #66CC99;}
+.box-bg-25{background-color: #66CC66;}
+.box-bg-26{background-color: #6699FF;}
+.box-bg-27{background-color: #6699CC;}
+.box-bg-28{background-color: #669999;}
+.box-bg-29{background-color: #669966;}
+.box-bg-30{background-color: #6666FF;}
+.box-bg-31{background-color: #6666CC;}
+.box-bg-32{background-color: #666699;}
+.box-bg-33{background-color: #666666;}
+.box-bg-34{background-color: #996666;}
+.box-bg-35{background-color: #996699;}
+.box-bg-36{background-color: #9966CC;}
+.box-bg-37{background-color: #9966FF;}
+.box-bg-38{background-color: #999966;}
+.box-bg-39{background-color: #999999;}
+.box-bg-40{background-color: #9999CC;}
+.box-bg-41{background-color: #9999FF;}
+.box-bg-42{background-color: #99CC66;}
+.box-bg-43{background-color: #99CC99;color: #303133!important;}
+.box-bg-44{background-color: #99CCCC;color: #303133!important;}
+.box-bg-45{background-color: #99CCFF;color: #303133!important;}
+.box-bg-46{background-color: #99FF66;color: #303133!important;}
+.box-bg-47{background-color: #99FF99;color: #303133!important;}
+.box-bg-48{background-color: #99FFCC;color: #303133!important;}
+.box-bg-49{background-color: #99FFFF;color: #303133!important;}
+.box-bg-50{background-color: #CC6666;}
+.box-bg-51{background-color: #CC6699;}
+.box-bg-52{background-color: #CC66CC;}
+.box-bg-53{background-color: #CC66FF;}
+.box-bg-54{background-color: #CC9966;}
+.box-bg-55{background-color: #CC9999;}
+.box-bg-56{background-color: #CC99CC;}
+.box-bg-57{background-color: #CC99FF;}
+.box-bg-58{background-color: #CCCC66;color: #303133!important;}
+.box-bg-59{background-color: #CCCC99;color: #303133!important;}
+.box-bg-60{background-color: #CCCCCC;color: #303133!important;}
+.box-bg-61{background-color: #CCCCFF;color: #303133!important;}
+.box-bg-62{background-color: #CCFF66;color: #303133!important;}
+.box-bg-63{background-color: #CCFF99;color: #303133!important;}
+.box-bg-64{background-color: #CCFFCC;color: #303133!important;}
+.box-bg-65{background-color: #CCFFFF;color: #303133!important;}
+.box-bg-66{background-color: #FF6666;} 
