@@ -1,236 +1,226 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>SYSTEM-Intel-MIC的个人网站</title>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./bg.css">
+    <style>
+        :root {
+            --glass-bg: rgba(33, 37, 41, 0.85);
+            --transition-speed: 0.3s;
+        }
 
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
-	<link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
-	<title>SYSTEM-Intel-MIC的个人网站</title>
-	<meta name="keywords" content=“”>
-	<meta name="description" content="欢迎访问SYSTEM-Intel-MIC的个人网站">
-	<link rel="stylesheet" href="./bootstrap.min.css">
-	<link rel="stylesheet" href="./drak.css">
-	<link rel="stylesheet" href="./bg.css">
+        body {
+            margin: 0;
+            padding-top: 80px;
+            background-image: url(./bg.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
 
-	<style>
-		header {
-			height: 10rem !important;
-		}
+        .glass-layer {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px) saturate(180%);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 16px;
+            transition: all var(--transition-speed) ease;
+        }
 
-		body {
-			margin: 0;
-			padding: 0;
-		}
+        /* 响应式布局优化 */
+        .responsive-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            padding: 1.5rem;
+        }
 
-		#background-blur {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-image: url(./bg.jpg);
-			background-size: cover;
-			background-position: center;
-			z-index: -1;
-		}
+        .nav-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.2s ease;
+        }
 
-		.glass,
-		.first,
-		.card_1,
-		.card_2,
-		footer {
-			background: rgba(33, 37, 41, 0.8);
-			backdrop-filter: blur(10px);
-			box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-			padding: 20px;
-			border-radius: 10px;
-			max-width: 1200px;
-			margin: 20px auto;
-			transition: all 0.3s ease;
-			position: relative;
-			z-index: 1;
-		}
-		.search-container {
+        .nav-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        /* 搜索框优化 */
+        .search-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+        }
+
+        .search-input {
+            border-radius: 50px;
+            padding: 1rem 2rem;
+            background: rgba(255,255,255,0.9);
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            background: white;
+            box-shadow: 0 0 15px rgba(0,123,255,0.25);
+        }
+
+        /* 移动端优化 */
+        @media (max-width: 768px) {
+            body {
+                padding-top: 60px;
+            }
+            
+            .nav-card {
+                padding: 1rem;
+            }
+            
+            .search-container {
+                padding: 1rem;
+                margin: 1rem;
+            }
+            
+            input[type="text"] {
+                width: 100%;
+            }
+        }
+
+        /* 颜色类统一样式 */
+        [class^="bg_"], [class*=" bg_"] {
+            display: block;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin: 8px 0;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
             text-align: center;
-            background-color: rgba(48, 44, 44, 0.632);
-			max-width: 1170px;
-			border-radius: 10px;
-			margin: 20px auto;
-            padding: 20px;
-			color: rgba(9, 6, 6, 0.638);
-            border-radius: 4px;
-            box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
-        input[type="text"] {
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #706868c0;
-            border-radius: 4px;
-            width: 800px auto;
-            margin-bottom: 10px;
+        [class^="bg_"]:hover, [class*=" bg_"]:hover {
+            filter: brightness(110%);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
-
-        input[type="submit"] {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: rgb(255, 253, 253);
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-	</style>
-
+    </style>
 </head>
 
 <body>
-	<div id="background-blur"></div>
+    <header class="fixed-top py-3 glass-layer" style="width: 95%; left: 2.5%;">
+        <div class="container">
+            <h1 class="text-center text-white mb-0">SYSTEM-Intel-MIC的个人网站</h1>
+        </div>
+    </header>
 
-	<header>
-		<div class="head container">
-			<div class="title">
-				<h1>SYSTEM-Intel-MIC的个人网站</h1>
-			</div>
-			<div class="btn-group" role="group">
+    <main class="container">
+        <!-- 搜索框 -->
+        <div class="glass-layer search-container">
+            <form action="https://www.bing.com/search" class="d-flex gap-2" target="_blank">
+                <input type="text" name="q" placeholder="Bing搜索" class="form-control search-input" required>
+                <button type="submit" class="btn btn-primary rounded-pill px-4">🔍︎</button>
+            </form>
+        </div>
+<!-- 主导航区块 -->
+<section class="glass-layer responsive-grid mb-4">
+    <!-- 联系up主卡片 -->
+    <article class="nav-card bg_0 position-relative">
+        <div class="card-content">
+            <h2 style="color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">联系up主</h2>
+            <p class="flex-grow-1" style="color: #fff;">包括QQ、原神/崩铁UID等</p>
+        </div>
+        <a href="./aboutme.html" class="stretched-link" target="_blank" 
+           rel="noopener" aria-label="联系up主"></a>
+    </article>
 
-			</div>
-	</header>
-	<section>
-		<div class="first container">
-			<ul class="row">
-				<li class="col-md-3"><a href="aboutme.html" title="up主的联系方式" target="_blank">
-						<h1>联系up主</h1>
-						<p class="box-body">包括up主的QQ，原神/崩铁UID等<br> <br></h2>
-							<p class="box-body"></p>
-					</a></li>
-				<li class="col-md-3"><a href="https://space.bilibili.com/1978487514" title="up主的哔哩哔哩主页" target="_blank">
-						<h1>BiliBili</h1>
-						<p class="box-body">SYSTEM-Intel-MIC的Bilibili主页<br> <br></p>
-					</a></li>
-				<li class="col-md-3"><a href="https://github.com/SYSTEM-Intel-MIC/SYSTEM-Intel-MIC.github.io"
-						title="github项目地址" target="_blank">
-						<h1>github项目地址</h1>
-						<p class="box-body">查看这个项目<br>Github.io</p>
-					</a></li>
-				<li class="col-md-3"><a href="./list.html" title="资源分享" target="资源分享">
-						<h1>资源分享</h1>视频里面的资源<br> <br>
-						<p class="box-body"></p>
-					</a></li>
-			</ul>
-		</div>
-	</section>
-	<div class="search-container">
-        <form action="https://www.bing.com/search" target="_blank">
-            <input type="text" name="q" placeholder="请输入搜索内容..." required>
-            <br>
-            <input type="submit" value="Bing搜索">
-        </form>
-    </div>
-	<section>
-		<div class="card_1 container">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>up主优质视频推荐</h4>
-				</div>
-				<div class="panel-body">
-					<ul class="row">
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_55"
-								href="https://www.bilibili.com/video/BV1atAyeVEZM/"
-								title="【拒绝付费】2025年最新最详细的不激活免费使用UOS教程" target="_blank">【拒绝付费】2025年最新最详细的不激活免费使用UOS教程</a>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_62"
-								href="https://www.bilibili.com/video/BV1uc411E7mi/" title="提高edge下载速度教程：开启多线程下载"
-								target="_blank">提高edge下载速度教程：开启多线程下载</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_66"
-								href="https://www.bilibili.com/video/BV1v9dSYLEB9/"
-								title="通用网页视频下载工具--让新手也能轻松下载各大视频网站中的视频"
-								target="_blank">提通用网页视频下载工具--让新手也能轻松下载各大视频网站中的视频</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="card_1 container">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>兴趣分享</h4>
-				</div>
-				<div class="panel-body">
-					<ul class="row">
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_44" href="https://bbs.mihoyo.com"
-								title="米游社" target="_blank">米游社</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_50" href="https://ys.mihoyo.com/" title="原神"
-								target="_blank">原神</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_38" href="https://sr.mihoyo.com/"
-								title="崩坏星穹铁道" target="_blank">崩坏星穹铁道</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_10" href="https://bh3.mihoyo.com/"
-								title="崩坏三" target="_blank">崩坏三</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_37" href="https://zzz.mihoyo.com/"
-								title="绝区零" target="_blank">绝区零</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_4" href="https://ys.mihoyo.com/cloud"
-								title="云原神" target="_blank">云原神</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_20" href="https://sr.mihoyo.com/cloud"
-								title="云星穹铁道" target="_blank">云星穹铁道</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_24" href="http://www.bilibili.com/"
-								title="全国最大的弹幕视频网" target="_blank">bilibili官网</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_2" href="https://store.steampowered.com/"
-								title="全球最大游戏平台" target="_blank">steam</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a class="bg_41" href="https://www.heishenhua.com/"
-								title="中国首个国产3A" target="_blank">黑神话悟空</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="card_2 container">
-			<div class="panel panel-primary">
-				<div class="panel-heading">
-					<h4>探索分享</h4>
-				</div>
-				<div class="panel-body">
-					<ul class="row">
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://chat.deepseek.com/"
-								title="DeepSeek-中国国产AI大模型" target="_blank">DeepSeek</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="http://www.microsoft.com/"
-								title="Microsoft-什么都要钱" target="_blank">微软官网</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://www.pc528.net/." title="系统极限精简"
-								target="_blank">不忘初心系统</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://www.52pojie.cn/" title="最好用的破解软件社区"
-								target="_blank">吾爱破解</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://zhutix.com/" title="最大的系统美化社区"
-								target="_blank">致美化</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="http://msdn.itellyou.cn/" title="MSDN, 我告诉你"
-								target="_blank">MSDN</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://www.deepin.org/" title="国产系统之光"
-								target="_blank">Deepin系统</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://www.chinauos.com/" title="deepin的商业版"
-								target="_blank">UOS</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="http://www.kali.org/" title="网络渗透专用系统"
-								target="_blank">KALI Linux</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://cn.ubuntu.com/" title="通用家庭Linux"
-								target="_blank">Ubuntu</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="http://www.github.com/" title="全球最大开源软件保管仓库"
-								target="_blank">Github</a></li>
-						<li class="col-md-2 col-sm-4 col-xs-6"><a href="https://www.gitee.com/" title="中国版github"
-								target="_blank">Gitee</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- BiliBili卡片 -->
+    <article class="nav-card bg_0 position-relative">
+        <div class="card-content">
+            <h2 style="color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">BiliBili</h2>
+            <p class="flex-grow-1" style="color: #fff;">视频发布主页</p>
+        </div>
+        <a href="https://space.bilibili.com/1978487514" 
+           class="stretched-link" 
+           target="_blank" 
+           rel="noopener"
+           aria-label="访问Bilibili主页"></a>
+    </article>
 
-	</div>
-	</div>
+    <!-- GitHub卡片 -->
+    <article class="nav-card bg_0 position-relative">
+        <div class="card-content">
+            <h2 style="color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">GitHub</h2>
+            <p class="flex-grow-1" style="color: #fff;">项目源代码仓库</p>
+        </div>
+        <a href="https://github.com/SYSTEM-Intel-MIC/SYSTEM-Intel-MIC.github.io" 
+           class="stretched-link" 
+           target="_blank" 
+           rel="noopener"
+           aria-label="访问GitHub仓库"></a>
+    </article>
 
+    <!-- 资源分享卡片 -->
+    <article class="nav-card bg_0 position-relative">
+        <div class="card-content">
+            <h2 style="color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">资源分享</h2>
+            <p class="flex-grow-1" style="color: #fff;">视频相关资源下载</p>
+        </div>
+        <a href="./list.html" class="stretched-link" aria-label="资源分享"></a>
+    </article>
+</section>
+        <!-- 视频推荐 -->
+        <section class="glass-layer p-4 mb-4">
+            <h3 class="text-white mb-4">🎬 up主优质视频推荐</h3>
+            <div class="responsive-grid">
+                <a href="https://www.bilibili.com/video/BV1atAyeVEZM/" class="bg_67">【拒绝付费】2025最新免费使用UOS教程</a>
+                <a href="https://www.bilibili.com/video/BV1uc411E7mi/" class="bg_62">提高Edge下载速度教程</a>
+                <a href="https://www.bilibili.com/video/BV1v9dSYLEB9/" class="bg_66">通用网页视频下载工具</a>
+            </div>
+        </section>
 
+        <!-- 兴趣分享 -->
+        <section class="glass-layer p-4 mb-4">
+            <h3 class="text-white mb-4">🎮 兴趣分享</h3>
+            <div class="responsive-grid">
+                <a class="bg_290" href="https://bbs.mihoyo.com" target="_blank">米游社</a>
+                <a class="bg_358" href="https://ys.mihoyo.com/" target="_blank">原神</a>
+                <a class="bg_7" href="https://sr.mihoyo.com/" target="_blank">星穹铁道</a>
+                <a class="bg_170" href="https://bh3.mihoyo.com/" target="_blank">崩坏三</a>
+                <a class="bg_174" href="https://zzz.mihoyo.com/" target="_blank">绝区零</a>
+                <a class="bg_357" href="https://ys.mihoyo.com/cloud" style="color: #ffffffc9;" target="_blank">云原神</a>
+                <a class="bg_22" href="https://sr.mihoyo.com/cloud" style="color: #ffffffc9;" target="_blank">云星穹铁道</a>
+                <a class="bg_21" href="https://www.bilibili.com/" style="color: #ffffffc9;" target="_blank">bilibili官网</a>
+                <a class="bg_299" href="https://store.steampowered.com/" style="color: #ffffffc9;" target="_blank">steam</a>
+                <a class="bg_188" href="https://www.heishenhua.com/" style="color: #ffffffc9;" target="_blank">黑神话悟空</a>
+            </div>
+        </section>
+
+        <!-- 探索分享 -->
+        <section class="glass-layer p-4">	
+            <h3 class="text-white mb-4">🔍 探索分享</h3>
+            <div class="responsive-grid">
+                <a href="https://chat.deepseek.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">DeepSeek</a>
+                <a href="http://www.microsoft.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">微软官网</a>
+                <a href="https://www.pc528.net/" style="color: #ffffffc9;" class="bg_0" target="_blank">不忘初心系统</a>
+                <a href="https://www.52pojie.cn/" style="color: #ffffffc9;" class="bg_0" target="_blank">吾爱破解</a>
+                <a href="https://zhutix.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">致美化</a>
+                <a href="https://msdn.itellyou.cn/" style="color: #ffffffc9;" class="bg_0" target="_blank">MSDN</a>
+                <a href="https://www.deepin.org/" style="color: #ffffffc9;" class="bg_0" target="_blank">国产开源系统·deepin</a>
+                <a href="https://www.chinauos.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">统信UOS</a>
+                <a href="https://www.kali.org/" style="color: #ffffffc9;" class="bg_0" target="_blank">KALI Linux</a>
+                <a href="https://cn.ubuntu.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">Ubuntu</a>
+                <a href="http://www.github.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">Github</a>                
+                <a href="https://www.gitee.com/" style="color: #ffffffc9;" class="bg_0" target="_blank">Gitee</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="./bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
